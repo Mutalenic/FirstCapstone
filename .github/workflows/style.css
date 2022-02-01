@@ -51,7 +51,13 @@ body {
         padding: 0 5px 0 16px;
     }
 
-    .mainText
+    .mainText {
+        padding: 5px;
+    }
+
+    .card1 {
+        background-image: url(images/header.png);
+    }
 
     #aboutMenu {
         display: none;
