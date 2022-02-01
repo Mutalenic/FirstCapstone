@@ -6,11 +6,73 @@ body {
     margin: 0;
     padding: 0;
 }
-
-.navbar1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    background-color: #272A31;
-    color: white;
+.navbar {
+    display: none;
 }
+
+.navbar1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    color: black;
+    padding: 9px 26px 8px 39px;
+}
+ 
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toggle-Menu .bars {
+    height: 6px;
+    width: 100%;
+    background-color: #272A31;
+    }
+
+    .toggle-Menu {
+        position: absolute;
+        top: 1.75em;
+        height: 29px;
+        left: 1.5em;
+        display: flex;
+        flex-direction: column;
+        width: 35px;
+        justify-content: space-between;
+    }
+
+    .homePage {
+        display: flex;
+        flex-direction: column;
+        margin-top: 77px;
+        padding: 0 5px 0 16px;
+    }
+
+    .mainText
+
+    #aboutMenu {
+        display: none;
+    }
+
+.navbar li {
+    list-style: none;
+}
+.navbar1 li {
+    list-style: none;
+}
+
+@media screen and (min-width: 992px) {
+    body {
+      margin: 0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-color: #272A31;
+        color: white;
+    }
