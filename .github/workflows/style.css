@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #272A31;
+    color: white;
+}
