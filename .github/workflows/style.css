@@ -53,14 +53,16 @@ body {
 
     .mainText {
         padding: 5px;
+        align-content: center;
     }
 
     .card1 {
         background-image: url(images/header.png);
     }
 
-    #aboutMenu {
+    .aboutMenu .active {
         display: none;
+        width: 100%;
     }
 
 .navbar li {
@@ -82,3 +84,8 @@ body {
         background-color: #272A31;
         color: white;
     }
+
+
+
+
+}
