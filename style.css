@@ -67,6 +67,12 @@ body {
         font-size: 1.5em;
         font-weight: 900;
         color: #ec5242;
+        margin: 0 20px;
+        background-image: url("images/webkit.jpg");
+        background-size: 50%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .hello {
@@ -85,13 +91,53 @@ body {
         font-size: 15px;
     }
 
+    .date {
+        font-family: 'COCOGOOSE', sans-serif;
+        padding: 20px 0;
+        font-size: 1.5em;
+        font-weight: 900;
+        color: black;
+        }
+
+        .location {
+        font-family: 'COCOGOOSE', sans-serif;
+        padding: 20px 0;
+        font-size: 1.5em;
+        font-weight: 900;
+        color: #d3d3d3;
+
+        }
+
     .card1 {
         background-image: url(images/header.png);
     }
 
+    /* .speaker1 {
+        flex-direction: row;
+    } */
+
+    .SpeakerSection {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-row-gap: 10px;
+            padding: 20px;
+        
+    }
+
+    .speaker1 {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-column-gap: 20px;
+      }
+
+      .speakertext1 {
+          padding: 0 0 0 0;
+      }
+
     .container1 {
         display: flex;
         flex-direction: column;
+        background-image: url(images/black1.jpg);
     }
 .navbar li {
     list-style: none;
