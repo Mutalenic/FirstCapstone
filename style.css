@@ -28,7 +28,7 @@ body {
 }
 
 
-.toggle-Menu {
+.fa-bars {
   position: fixed;
   height: 9px;
   left: 1.5em;
@@ -40,9 +40,9 @@ body {
   justify-content: space-between;
 }
 
-.toggleMenu {
+/* .toggleMenu {
   opacity: 1;
-}
+} */
 
 .homePage {
   display: flex;
@@ -303,26 +303,33 @@ body {
     padding: 8px 19px 8px 0;
   }
 
-  .menucontainer1 {
+  /* .menucontainer1 {
     list-style: none;
     align-items: center;
     justify-content: center;
     background-color: #fff;
     padding: -1px 0;
-  }
+  } */
 
   .abtMenu {
     display: block;
     display: flex;
+    font-size: 17px;
     flex-direction: row;
     justify-content: flex-end;
     justify-items: flex-start;
-    gap: 71px;
+    gap: 44px;
     list-style: none;
-    margin-top: -65px;
+    margin-top: -84px;
     text-decoration: none;
     background-color: white;
-    padding: 9px 164px 8px 39px;
+    padding: 19px 164px 22px 39px;
+  }
+
+  .abtMenu li a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
   }
 
   .compaign {
@@ -443,7 +450,7 @@ body {
 .topLogo {
   margin-left: 9%;
   width: 76px;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  padding-bottom: 26px;
+  padding-top: 6px;
   height: auto;
 }

@@ -15,6 +15,10 @@ body {
   display: none;
 }
 
+/* .abtMenu {
+  display: none;
+} */
+
 .compaign {
   display: none;
 }
@@ -23,11 +27,11 @@ body {
   display: none;
 }
 
-.abtNavBar ul {
+/* .abtNavBar ul {
   margin: 0;
   padding: 0;
   display: flex;
-}
+} */
 
 .closemenu {
   margin-top: -14%;
@@ -293,12 +297,44 @@ body {
     margin: 0;
   }
 
-  .abtNavBar {
+  .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: flex-end;
     background-color: #272a31;
     color: white;
+    padding: 5px 20px 5px 0;
+  }
+
+  .navbarlist > li {
+    display: inline-flex;
+    padding: 8px 19px 8px 0;
+    flex-direction: row;
+  }
+
+  .menucontainer1 {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: -1px 0;
+  }
+
+  /* .abtMenu {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: flex-start;
+    gap: 71px;
+    list-style: none;
+    margin-top: -65px;
+    text-decoration: none;
+    background-color: white;
+    padding: 9px 164px 8px 39px;
+  } */
+
+  .compaign {
+    border: #272a31;
   }
 
   .abtTitle {
@@ -405,7 +441,7 @@ body {
     padding: -1px 0;
   }
 
-  .abtMenu {
+   .abtMenu > li {
     display: block;
     display: flex;
     flex-direction: row;
@@ -417,7 +453,7 @@ body {
     text-decoration: none;
     background-color: white;
     padding: 9px 164px 8px 39px;
-  }
+  } 
 
   .abtnavbar {
     display: flex;
@@ -431,12 +467,25 @@ body {
     list-style: none;    
   }
 
-
-
-
   .toggleMenu {
     display: none;
   }
+
+  .hircompaign {
+    border: 1px solid #ec5242;
+    margin: 7px 2px 0px 899px;
+    text-align: right;
+  }
+
+  .abtNavBar1 {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+    } 
+
+    .navbarlist > li {
+      padding: 8px 19px 8px 0;
+    }
 
 
 
