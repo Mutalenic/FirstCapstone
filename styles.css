@@ -96,13 +96,9 @@
     margin: 0 -1px;
   }
 
-  .logoCredit {
-      padding-top: 20px;
-  }
-
   .abtTitleLogo {
     text-align: center;
-    font-family: 'Lato';
+    font-family: 'Lato' , sans-serif;
     font-size: 19px;
   }
 
@@ -113,6 +109,57 @@
     border-color: #ec5242;
   }
 
+  .sectionline {
+    width: 100%;
+    margin: 39px 0;
+    color: #d3d3d3;
+  }
+
+  .pastEvents {
+    font-family: 'lato' , sans-serif;
+  }
+
+  .pastEventsLine {
+    width: 20px;
+    border-color: #ec5242;
+  }
+
+  .pastEventsText {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 13px;
+  }
+
+  .pastImage {
+    color: white;
+    background-image: url(images/conference1.jpg);
+    min-height: 195px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-top: 40px;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+
+    text-align: center;
+    padding-top: 24px;
+  }
+
+
+  .pastImage1 {
+    color: white;
+    background-image: url(images/conference2.jpg);
+    min-height: 195px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-top: 40px;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+
+    text-align: center;
+    padding-top: 24px;
+
+  }
+
   .abttext {
     font-size: 15px;
     font-family: 'Lato', sans-serif;
@@ -121,15 +168,28 @@
   }
 
   .hirLogo {
-    width: 25%;
+    width: 27%;
     height: auto;
     margin-left: 45px;
-    margin-top: -31px;
+    margin-top: 7px;
+    margin-bottom: 79px;
   }
 
   .abtdate {
-      font-size:xx-small;
+    font-size: xx-small;
+    margin-top: -56px;
+    padding-left: -9px;
+    margin-left: -24px;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
 
+  }
+
+  .abtline2 {
+    width: 20px;
+    border-color: #ec5242;
+    margin-top: -19px;
+    margin-bottom: 30px;
   }
 
   .smalldate {
@@ -137,7 +197,11 @@
   }
 
   .hirafrica {
-      text-align: center;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Lato';
+    font-size: 16px;
+    text-align: left;
   }
 
   .container4 {
@@ -145,8 +209,9 @@
     flex-direction: column;
     background-color: #272a31;
     text-align: center;
-    padding-top: 10px;
+    margin-top: 39px;
     padding-bottom: 10px;
+    width: 100%;
   }
 
   .abtpartnersList {
@@ -158,6 +223,7 @@
     font-size: 20px;
     justify-content: center;
     color: #fff;
+    font-family: 'Lato',sans-serif;
   }
 
   .abtHello {
@@ -222,11 +288,24 @@
 
   .logoCredit2 {
     display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    padding-top: 31px;
+    padding-bottom: -28px;
+    margin: 20px 2px 6px 7px;
+    gap: 10px;
+    border: 1px solid #d3d3d3;
+  }
+
+  .abtfooter {
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Lato';
     width: 95%;
+    font-size: 10px;
     margin: 20px auto;
-    gap: 32px;
+    gap: 28px;
   }
 
 
