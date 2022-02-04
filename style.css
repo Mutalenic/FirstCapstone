@@ -402,10 +402,9 @@
 
    .mainProgramCard {
     display: grid;
-    grid-template-columns: 100%;
-    padding: 10% 2%;
-    margin: 3px;
     text-align: center;
+    grid-template-columns: 100%;
+    margin: 3px;
     background-color: rgba(120, 127, 125, 0.3);
   }
 
@@ -420,8 +419,39 @@
     display: flex;
     color: #fff;
     justify-content: center;
+    padding: 55px 0 72px 0;
+  }
+
+  .joinbtn {
+    display: none;
+  }
+
+  .seemore {
+    display: none;
   }
   
+  .SpeakerSection {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 40% 40%;
+    column-gap: 10px;
+  }
+
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #272a31;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 46px;
+  }
+
+  .partnersList {
+    justify-content: center;
+    font-size: 3.2em;
+    color: #d3d3d3;  
+  }
 
 
 
