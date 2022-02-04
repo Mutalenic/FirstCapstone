@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .abtNavBar {
+    display: none;
+  }
+  
+  .navbar {
+    display: none;
+  }
+
+  .compaign {
+    display: none;
+  }
+
+  .topLogo {
+    display: none;
+  }
+  .abtNavBar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .abtNavBar1 {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+  }
+
+  .abtMenu {
+    display: none;
+    justify-content: space-between;
+    justify-items: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    color: hsl(0, 0%, 0%);
+    padding: 9px 26px 8px 39px;
+  }
+
+  .abttoggle-Menu1 .bars {
+    height: 6px;
+    width: 100%;
+    background-color: #272a31;
+  }
+
+  .abttoggle-Menu1 {
+    position: absolute;
+    top: 1.75em;
+    height: 29px;
+    left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+    justify-content: space-between;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 77px;
+    padding: 25px 10px 0px 10px;
+    font-family: 'cocogoose', sans-serif;
+  }
+
+  .contact {
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding-top: 40px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .abtCard {
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+  }
+
+  .abtTitle {
+    font-family: 'cocogoose', sans-serif;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 32px;
+    color: #ec5242;
+    text-align: center;
+    margin: 0 -1px;
+  }
+
+  .logoCredit {
+      padding-top: 20px;
+  }
+
+  .abtTitleLogo {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 19px;
+  }
+
+  .line2 {
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    border-color: #ec5242;
+  }
+
+  .abttext {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: darkgray;
+  }
+
+  .hirLogo {
+    width: 25%;
+    height: auto;
+    margin-left: 45px;
+    margin-top: -31px;
+  }
+
+  .abtdate {
+      font-size:xx-small;
+
+  }
+
+  .smalldate {
+    padding: 5px;
+  }
+
+  .hirafrica {
+      text-align: center;
+  }
+
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #272a31;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .abtpartnersList {
+    justify-content: center;
+  
+  }
+
+  .abtpartnerText {
+    font-size: 20px;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .abtHello {
+    color: #ec5242;
+    margin-bottom: 3px;
+    text-align: center;
+    line-height: 4px;
+    font-family: 'lato', sans-serif;
+  }
+
+  .abtMainText {
+    font-family: 'lato', sans-serif;
+    padding: 20px;
+    border: 4px solid #fff;
+    margin: 21px 0 -27px 0;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .contactEmail {
+    font-size: 13px;
+    display: flex;
+    font-weight: 600;
+    line-height: 1px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-left: 1px;
+    width: 140px;
+    padding-bottom: 5px;
+    margin-left: 60px;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .pastImage {
+      background-image: url(images/conference1.jpg);
+      background-repeat: no-repeat;
+  }
+
+  .pastImage1 {
+      background-image: url(images/conference2.jpg);
+      background-repeat: no-repeat;
+  }
+
+  .abtfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 20px auto;
+    gap: 32px;
+  }
+
+  .eventlogo {
+    margin-left: 1%;
+    width: 104px;
+    height: auto;
+  }
+
+  .logoCredit2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 20px auto;
+    gap: 32px;
+  }
+
+
+
+
+  @media screen and (min-width: 992px) {
+    body {
+      margin: 0;
+    }
+
+    .abtNavBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-color: #272a31;
+        color: white;
+      }
+}
