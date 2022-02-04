@@ -1,449 +1,442 @@
 * {
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.abtNavBar {
+  display: none;
+}
+
+.navbar {
+  display: none;
+}
+
+.compaign {
+  display: none;
+}
+
+.topLogo {
+  display: none;
+}
+
+.abtNavBar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.closemenu {
+  margin-top: -14%;
+  margin-left: 86%;
+  position: fixed;
+}
+
+.fas {
+  font-weight: 900;
+  font-size: 2.6em;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 77px;
+  padding: 25px 10px 0 10px;
+  font-family: 'cocogoose', sans-serif;
+}
+
+.contact {
+  font-size: 14px;
+  font-family: 'Lato';
+  font-weight: 400;
+  padding-top: 40px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.abtCard {
+  background-image: url(images/header.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.abtTitle {
+  font-family: 'cocogoose', sans-serif;
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 32px;
+  color: #ec5242;
+  text-align: center;
+  margin: 0 -1px;
+}
+
+.abtTitleLogo {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+}
+
+.line2 {
+  display: flex;
+  justify-content: center;
+  width: 25px;
+  border-color: #ec5242;
+}
+
+.sectionline {
+  width: 100%;
+  margin: 39px 0;
+  color: #d3d3d3;
+}
+
+.pastEvents {
+  font-family: 'lato', sans-serif;
+}
+
+.pastEventsLine {
+  width: 20px;
+  border-color: #ec5242;
+}
+
+.pastEventsText {
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 13px;
+}
+
+.pastImage {
+  color: white;
+  background-image: url(images/conference1.jpg);
+  min-height: 195px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 40px;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+  text-align: center;
+  padding-top: 24px;
+}
+
+.pastImage1 {
+  color: white;
+  background-image: url(images/conference2.jpg);
+  min-height: 195px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 40px;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+  text-align: center;
+  padding-top: 24px;
+}
+
+.abttext {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: darkgray;
+}
+
+.hirLogo {
+  width: 27%;
+  height: auto;
+  margin-left: 45px;
+  margin-top: 7px;
+  margin-bottom: 79px;
+}
+
+.abtdate {
+  font-size: xx-small;
+  margin-top: -56px;
+  padding-left: -9px;
+  margin-left: -24px;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.abtline2 {
+  width: 20px;
+  border-color: #ec5242;
+  margin-top: -19px;
+  margin-bottom: 30px;
+}
+
+.smalldate {
+  padding: 5px;
+}
+
+.hirafrica {
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Lato';
+  font-size: 16px;
+  text-align: left;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  background-color: #272a31;
+  text-align: center;
+  margin-top: 39px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.abtpartnersList {
+  justify-content: center;
+}
+
+.abtpartnerText {
+  font-size: 20px;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.abtHello {
+  color: #ec5242;
+  margin-bottom: 3px;
+  text-align: center;
+  line-height: 4px;
+  font-family: 'lato', sans-serif;
+}
+
+.abtMainText {
+  font-family: 'lato', sans-serif;
+
+  /* padding: 20px; */
+  border: 4px solid #fff;
+  margin: 21px 0 -27px 0;
+  background-color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.contactEmail {
+  font-size: 13px;
+  display: flex;
+  font-weight: 600;
+  line-height: 1px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  border-bottom: 1px solid;
+  padding-left: 1px;
+  width: 140px;
+  padding-bottom: 5px;
+  margin-left: 60px;
+  text-align: center;
+  justify-items: center;
+}
+
+.pastImage {
+  background-image: url(images/conference1.jpg);
+  background-repeat: no-repeat;
+}
+
+.pastImage1 {
+  background-image: url(images/conference2.jpg);
+  background-repeat: no-repeat;
+}
+
+.abtfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 20px auto;
+  gap: 32px;
+}
+
+.eventlogo {
+  margin-left: 1%;
+  width: 104px;
+  height: auto;
+}
+
+.logoCredit2 {
+  display: flex;
+  width: 95%;
+  justify-content: space-evenly;
+  padding-top: 31px;
+  padding-bottom: -28px;
+  margin: 20px 2px 6px 7px;
+  gap: 10px;
+  border: 1px solid #d3d3d3;
+}
+
+.abtfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Lato';
+  width: 95%;
+  font-size: 10px;
+  margin: 20px auto;
+  gap: 28px;
+}
+
+.logoCredit {
+  margin-top: 120px;
+}
+
+@media screen and (min-width: 992px) {
   body {
     margin: 0;
-    padding: 0;
   }
 
   .abtNavBar {
-    display: none;
-  }
-  
-  .navbar {
-    display: none;
-  }
-
-  .compaign {
-    display: none;
-  }
-
-  .topLogo {
-    display: none;
-  }
-  .abtNavBar ul {
-    margin: 0;
-    padding: 0;
     display: flex;
-  }
-
-  .abtNavBar1 {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-  }
-
-  .abtMenu {
-    display: none;
     justify-content: space-between;
-    justify-items: flex-start;
-    align-items: flex-start;
-    background-color: white;
-    color: hsl(0, 0%, 0%);
-    padding: 9px 26px 8px 39px;
-  }
-
-  .abttoggle-Menu1 .bars {
-    height: 6px;
-    width: 100%;
+    align-items: flex-end;
     background-color: #272a31;
-  }
-
-  .abttoggle-Menu1 {
-    position: absolute;
-    top: 1.75em;
-    height: 29px;
-    left: 1.5em;
-    display: flex;
-    flex-direction: column;
-    width: 35px;
-    justify-content: space-between;
-  }
-
-  .about {
-    display: flex;
-    flex-direction: column;
-    margin-top: 77px;
-    padding: 25px 10px 0px 10px;
-    font-family: 'cocogoose', sans-serif;
-  }
-
-  .contact {
-    font-size: 14px;
-    font-family: 'Lato';
-    font-weight: 400;
-    padding-top: 40px;
-    line-height: 26px;
-    text-align: center;
-    margin-top: 48px;
-  }
-
-  .abtCard {
-    background-image: url(images/header.png);
-    background-repeat: no-repeat;
-    overflow: hidden;
-
+    color: white;
   }
 
   .abtTitle {
-    font-family: 'cocogoose', sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     padding: 20px 0;
-    font-size: 24px;
-    font-weight: 200;
-    line-height: 32px;
-    color: #ec5242;
+    font-size: 4.5em;
+    font-weight: 900;
+    line-height: 76px;
     text-align: center;
-    margin: 0 -1px;
-  }
-
-  .abtTitleLogo {
-    text-align: center;
-    font-family: 'Lato' , sans-serif;
-    font-size: 19px;
-  }
-
-  .line2 {
-    display: flex;
-    justify-content: center;
-    width: 25px;
-    border-color: #ec5242;
-  }
-
-  .sectionline {
-    width: 100%;
-    margin: 39px 0;
-    color: #d3d3d3;
-  }
-
-  .pastEvents {
-    font-family: 'lato' , sans-serif;
-  }
-
-  .pastEventsLine {
-    width: 20px;
-    border-color: #ec5242;
-  }
-
-  .pastEventsText {
-    text-align: center;
-    font-family: 'Lato';
-    font-size: 13px;
-  }
-
-  .pastImage {
-    color: white;
-    background-image: url(images/conference1.jpg);
-    min-height: 195px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
-    margin-top: 40px;
-    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
-
-    text-align: center;
-    padding-top: 24px;
-  }
-
-
-  .pastImage1 {
-    color: white;
-    background-image: url(images/conference2.jpg);
-    min-height: 195px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
-    margin-top: 40px;
-    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
-
-    text-align: center;
-    padding-top: 24px;
-
-  }
-
-  .abttext {
-    font-size: 15px;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    color: darkgray;
-  }
-
-  .hirLogo {
-    width: 27%;
-    height: auto;
-    margin-left: 45px;
-    margin-top: 7px;
-    margin-bottom: 79px;
-  }
-
-  .abtdate {
-    font-size: xx-small;
-    margin-top: -56px;
-    padding-left: -9px;
-    margin-left: -24px;
-    border-top: 1px solid #d3d3d3;
-    border-bottom: 1px solid #d3d3d3;
-
-  }
-
-  .abtline2 {
-    width: 20px;
-    border-color: #ec5242;
-    margin-top: -19px;
-    margin-bottom: 30px;
-  }
-
-  .smalldate {
-    padding: 5px;
-  }
-
-  .hirafrica {
-    text-align: center;
-    font-weight: 600;
-    font-family: 'Lato';
-    font-size: 16px;
-    text-align: left;
-  }
-
-  .container4 {
-    display: flex;
-    flex-direction: column;
-    background-color: #272a31;
-    text-align: center;
-    margin-top: 39px;
-    padding-bottom: 10px;
-    width: 100%;
-  }
-
-  .abtpartnersList {
-    justify-content: center;
-  
-  }
-
-  .abtpartnerText {
-    font-size: 20px;
-    justify-content: center;
-    color: #fff;
-    font-family: 'Lato',sans-serif;
-  }
-
-  .abtHello {
-    color: #ec5242;
-    margin-bottom: 3px;
-    text-align: center;
-    line-height: 4px;
-    font-family: 'lato', sans-serif;
   }
 
   .abtMainText {
     font-family: 'lato', sans-serif;
-    /* padding: 20px; */
+    padding: 20px;
     border: 4px solid #fff;
-    margin: 21px 0 -27px 0;
+    margin: 49px 110px -27px 110px;
     background-color: #fff;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
   }
 
+  .abtHello {
+    display: none;
+  }
+
   .contactEmail {
     font-size: 13px;
     display: flex;
+    justify-content: center;
     font-weight: 600;
     line-height: 1px;
     font-family: 'Lato', sans-serif;
     text-align: center;
     border-bottom: 1px solid;
-    padding-left: 1px;
-    width: 140px;
+    padding: 0 6% 0 6%;
+    width: 0;
     padding-bottom: 5px;
-    margin-left: 60px;
+    margin: 0 44% 0 44%;
     text-align: center;
     justify-items: center;
   }
 
-  .pastImage {
-      background-image: url(images/conference1.jpg);
-      background-repeat: no-repeat;
+  .abtTitleLogo {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    padding-top: 6%;
   }
 
-  .pastImage1 {
-      background-image: url(images/conference2.jpg);
-      background-repeat: no-repeat;
-  }
-
-  .abtfooter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
-    margin: 20px auto;
-    gap: 32px;
-  }
-
-  .eventlogo {
-    margin-left: 1%;
-    width: 104px;
+  .hirLogo {
+    width: 32%;
     height: auto;
+    margin-left: 45px;
+    margin-top: 14px;
+    margin-bottom: 32px;
   }
 
   .logoCredit2 {
     display: flex;
-    width: 95%;
-    justify-content: space-evenly;
-    padding-top: 31px;
+    width: 33%;
+    justify-content: center;
+    padding: 0 -9% 0 3%;
     padding-bottom: -28px;
-    margin: 20px 2px 6px 7px;
-    gap: 10px;
+    margin: 1% -5% 1% 36%;
+    gap: 24px;
     border: 1px solid #d3d3d3;
+  }
+
+  .pastEvents {
+    font-family: 'lato', sans-serif;
+    text-align: center;
+  }
+
+  .pastEventImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 54px;
+  }
+
+  .container4 {
+    display: none;
   }
 
   .abtfooter {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    font-family: 'Lato';
-    width: 95%;
+    color: #d3d3d3;
+    font-family: math;
+    font-family: 'Lato'sans-serif;
+    width: 100%;
     font-size: 10px;
-    margin: 20px auto;
-    gap: 28px;
+    background-color: #272a31;
+    gap: 13px;
   }
 
-  .logoCredit {
-    margin-top: 120px;
+  .compaign {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: -1px 0;
+  }
+
+  .abtMenu {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: flex-start;
+    gap: 71px;
+    list-style: none;
+    margin-top: -65px;
+    text-decoration: none;
+    background-color: white;
+    padding: 9px 164px 8px 39px;
+  }
+
+  .abtnavbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgb(39, 42, 49);
+    color: white;
+  }
+  
+  .abtnavbar li {
+    list-style: none;    
   }
 
 
 
 
-  @media screen and (min-width: 992px) {
-    body {
-      margin: 0;
-    }
-
-    .abtNavBar {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        background-color: #272a31;
-        color: white;
-      }
-
-      .abtTitle{
-        font-family: 'COCOGOOSE', sans-serif;
-        padding: 20px 0;
-        font-size: 4.5em;
-        font-weight: 900;
-        line-height: 76px;
-        text-align: center;
-      }
-
-    .abtMainText {
-      font-family: 'lato', sans-serif;
-      padding: 20px;
-      border: 4px solid #fff;
-      margin: 49px 110px -27px 110px;
-      background-color: #fff;
-      font-size: 15px;
-      line-height: 25px;
-      text-align: center;
+  .toggleMenu {
+    display: none;
   }
-      .abtHello {
-        display: none;
-      }
-
-      .contactEmail {
-        font-size: 13px;
-        display: flex;
-        justify-content: center;
-        font-weight: 600;
-        line-height: 1px;
-        font-family: 'Lato', sans-serif;
-        text-align: center;
-        border-bottom: 1px solid;
-        padding: 0 6% 0 6%;
-        width: 0;
-        padding-bottom: 5px;
-        margin: 0 44% 0 44%;
-        text-align: center;
-        justify-items: center;
-      }
-
-      .abtTitleLogo {
-        text-align: center;
-        font-family: Lato, sans-serif;
-        font-size: 19px;
-        padding-top: 6%;
-      }
-
-      .hirLogo {
-        width: 32%;
-        height: auto;
-        margin-left: 45px;
-        margin-top: 14px;
-        margin-bottom: 32px;
-      }
-
-      .logoCredit2 {
-        display: flex;
-        width: 33%;
-        justify-content: center;
-        padding: 0 -9% 0 3%;
-        padding-bottom: -28px;
-        margin: 1% -5% 1% 36%;
-        gap: 24px;
-        border: 1px solid #d3d3d3;
-      }
-
-      .pastEvents {
-        font-family: 'lato' , sans-serif;
-        text-align: center;
-      }
-
-      .pastEventImage {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 54px;
-      }
-
-      .container4 {
-        display: none;
-      }
-
-      .abtfooter {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #d3d3d3;
-        font-family: math;
-        font-family: 'Lato'sans-serif;
-        width: 100%;
-        font-size: 10px;
-        background-color: #272a31;
-        gap: 13px;
-      }
-    
-      
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
