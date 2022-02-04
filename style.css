@@ -31,15 +31,6 @@
       height: auto;
   }
   
-  .abtMenu {
-    display: none;
-    justify-content: space-between;
-    justify-items: flex-start;
-    align-items: flex-start;
-    background-color: white;
-    color: hsl(0, 0%, 0%);
-    padding: 9px 26px 8px 39px;
-  }
   
   .navbar ul {
     margin: 0;
@@ -304,18 +295,158 @@
   .navbar1 li {
     list-style: none;
   }
+
+  .abtMenu {
+    display: none;
+  }
   
   @media screen and (min-width: 992px) {
     body {
       margin: 0;
     }
   
-    .navbar {
+     .navbar {
       display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
+      justify-content: flex-end;
       background-color: #272a31;
       color: white;
+      padding: 5px 20px 5px 0; 
+    } 
+
+    .navbarlist > li {
+      padding: 8px 19px 8px 0;
     }
+
+     .menucontainer1 {
+      list-style: none;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffffff;
+      padding: -1px 0;
+  }
+
+  .abtMenu {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: flex-start;
+    gap: 106px;
+    list-style: none;
+    text-decoration: none;
+    background-color: white;
+    padding: 9px 164px 8px 39px;
+  }
+
+  .compaign {
+    border: #272a31;
+  }
+
+  .homePage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 77px;
+    padding: 0 5px 0 16px;
+    font-family: 'cocogoose', sans-serif;
+  }
+
+  .title {
+    font-family: 'COCOGOOSE', sans-serif;
+    padding: 20px 0;
+    font-size: 4.5em;
+    font-weight: 900;
+    line-height: 76px;
+    text-align: left;
+    margin: 0 -1px;
+    background-image: url("images/matrix.jpg");
+    background-size: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hello {
+    color: #ec5242;
+    font-size: 3.2em;
+    line-height: 77px;
+    font-family: 'lato', sans-serif;
+  }
+
+  .mainText {
+    font-family: 'lato', sans-serif;
+    padding: 20px;
+    border: 3px solid #fff;
+    margin: 2px 390px -27px 0;
+    background-color: #f7f7f7;
+    align-content: center;
+    line-height: 21px;
+    font-size: 20px;
+  }
+
+  .date {
+    font-family: 'COCOGOOSE', sans-serif;
+    padding: 20px 0;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: black;
+  }
+
+  .location {
+    font-family: 'Lato', sans-serif;
+    padding: -5px 0;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-top: -58px;
+    margin-bottom: 97px;
+    color: black;
+  }
+
+   .mainProgramCard {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 10% 2%;
+    margin: 3px;
+    text-align: center;
+    background-color: rgba(120, 127, 125, 0.3);
+  }
+
+  .mainPragramCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px;
+
+  }
+
+  .btnEntireProgram {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+  }
+  
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
   
