@@ -111,6 +111,8 @@ body {
   min-height: 195px;
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 40%;
+  height: auto;
   position: relative;
   margin-top: 40px;
   box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
@@ -124,6 +126,8 @@ body {
   min-height: 195px;
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 40%;
+  height: auto;
   position: relative;
   margin-top: 40px;
   box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
@@ -242,13 +246,15 @@ body {
 
 .abtfooter {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  font-family: 'Lato', sans-serif;
-  width: 95%;
+  color: rgb(211, 211, 211);
+  font-family: Lato, sans-serif;
+  width: 100%;
+  margin-top: 81px;
   font-size: 10px;
-  margin: 20px auto;
-  gap: 28px;
+  background-color: rgb(39, 42, 49);
+  gap: 13px;
 }
 
 .logoCredit {
@@ -283,6 +289,27 @@ body {
     background-color: #272a31;
     color: white;
     padding: 5px 20px 5px 0;
+  }
+
+  .abtMenu {
+    display: block;
+    display: flex;
+    font-size: 17px;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: flex-start;
+    gap: 28px;
+    list-style: none;
+    margin-top: -41px;
+    text-decoration: none;
+    background-color: white;
+    padding: 18px 24px 22px 39px;
+  }
+
+  .abtMenu li a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
   }
 
   .navbarlist > li {
@@ -419,9 +446,10 @@ body {
   }
 
   .hircompaign {
-    border: 1px solid #ec5242;
-    margin: 7px 2px 0 899px;
-    text-align: right;
+    border: 7px solid #ec5242;
+    display: table-cell;
+    margin: 7px 10px 0 872px;
+    text-align: center;
   }
 
   .abtNavBar1 {
