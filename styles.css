@@ -34,16 +34,20 @@ body {
   list-style: none;
 }
 
-/* .abtNavBar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-} */
-
-.closemenu {
-  margin-top: -42px;
-  margin-left: 86%;
+.toggleMenu i {
+  font-size: 30px;
+  color: gray;
+  cursor: pointer;
+  margin-bottom: 50px;
+  width: 10%;
   position: fixed;
+}
+
+.menu-cross {
+  color: #ec5242;
+  position: fixed;
+  top: 10%;
+  right: 10%;
 }
 
 .toggleMenu {
@@ -75,10 +79,11 @@ body {
 }
 
 .abtCard {
-  background-image: url(images/header.png);
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 101%;
+  }
 
 .abtTitle {
   font-family: 'cocogoose', sans-serif;
@@ -497,6 +502,10 @@ body {
     } 
 
     .closemenu {
+      display: none;
+    }
+
+    .menu-cross {
       display: none;
     }
 

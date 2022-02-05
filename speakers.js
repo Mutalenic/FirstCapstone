@@ -12,7 +12,7 @@ const speakersinfo = [
     },
     {
         Name: 'Nolan Myers',
-        Picture: '.images/nolan mayers.jpg',
+        Picture: './images/nolan mayers.jpg',
         ImageAlt: 'Nolan Myers',
         speakerTitle: 'CEO DOUBLE GDP',
         Bio: 'Nolan is a versatile leader with experience running customer success, professional services, operations, partnerships, and product.'
@@ -20,7 +20,7 @@ const speakersinfo = [
     },
     {
         Name: 'Doreen Okiri',
-        Picture: '.images/doreen1.jpg',
+        Picture: './images/doreen1.jpg',
         ImageAlt: 'Doreen Okiri',
         speakerTitle: 'Head of customer Success DOUBLE GDP',
         Bio: 'Doreen is Specialised in Project management, software implementation and has extensive experience in SaaS customer success.'
@@ -28,23 +28,26 @@ const speakersinfo = [
     },
     {
         Name: 'Silumesii Maboshe',
-        Picture: '.images/silumesii.jpg',
+        Picture: './images/silumesii.jpg',
         ImageAlt: 'Silumesii Maboshe',
-        speakerTitle: 'Silumesii is a software developer, project manager, connector, researcher and has provided solutions to various customer  tech challenges.'
+        speakerTitle:'Co-Founder and Director',
+        Bio:'Silumesii is a software developer, project manager, connector, researcher and has provided solutions to various customer  tech challenges.'
   
     },
     {
         Name: 'Ariel Camus',
-        Picture: '.images/Ariel.jpg',
+        Picture: './images/Ariel.jpg',
         ImageAlt: 'Ariel Camus',
-        speakerTitle: ' Ariel believes that the place where you are born should not determine your opportunities in life.'
+        speakerTitle:'Founder & CEO at Microverse',
+        Bio:' Ariel believes that the place where you are born should not determine your opportunities in life.'
   
     },
     {
         Name: 'Butler Shimaluwani',
-        Picture: '.images/BUTTLER1.jpg',
+        Picture: './images/BUTTLER1.jpg',
         ImageAlt: 'Butler Shimaluwani',
-        speakerTitle: 'Butler is a full time student at Microverse, learning Full Stack Web Development.'
+        speakerTitle: 'Student at Microverse',
+        Bio:'Butler is a full time student at Microverse, learning Full Stack Web Development.'
   
     },   
   ];
