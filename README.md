@@ -13,14 +13,18 @@ This is my first captsotne project at Microverse. Capstone Projects are done at 
 - CSS
 - Javascript
 - ESLint
-- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).![capstone](https://user-images.githubusercontent.com/19844175/152653368-67d03996-d0c5-4b2a-8cc5-270209126836.png)
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
+- 
+- 
+- ![capstone 2](https://user-images.githubusercontent.com/19844175/152654271-efb31fa2-7c28-4adf-a7a3-e877bdfcc270.png)
+
 
 - Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 
 
-Check out it here : https://mutalenic.github.io/FirstCapstone/
+## Check out it here : https://mutalenic.github.io/FirstCapstone/ and a video presentation here https://www.loom.com/share/21956dfbd1a54c4394456f83d2a5eb93
 
 
 ## Authors
