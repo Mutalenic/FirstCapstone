@@ -34,10 +34,10 @@ body {
 .toggle-Menu {
   display: flex;
   padding: 10px 20px;
-    max-width: 100%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .closemenu {
@@ -56,7 +56,6 @@ body {
 }
 
 .fas.fa-bars.bar {
-
   padding-left: 20px;
 }
 
@@ -73,16 +72,7 @@ body {
   background-repeat: no-repeat;
   overflow: hidden;
   width: 101%;
-  }
-
-  .homePage {
-    display: flex;
-    flex-direction: column;
-    margin-top: -104px;
-    padding: 0 1px 0 13px;
-    font-family: 'cocogoose', sans-serif;
-  }
-
+}
 
 .title {
   font-family: 'COCOGOOSE', sans-serif;
@@ -218,7 +208,7 @@ body {
 
 .speakerName {
   font-size: 20px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   margin-top: -6px;
   margin-left: 10px;
 }
@@ -283,7 +273,7 @@ body {
 
 .abtpartnersList {
   justify-content: center;
-  font-family: 'lato',sans-serif;
+  font-family: 'lato', sans-serif;
   color: #d3d3d3;
   font-size: 20px;
 }
@@ -309,13 +299,16 @@ body {
   height: auto;
 }
 
-
 .navbar li {
   list-style: none;
 }
 
 .navbar1 li {
   list-style: none;
+}
+
+.abtMenu {
+  display: none;
 }
 
 .menu-cross {
@@ -326,22 +319,33 @@ body {
   left: 10%;
 }
 
-.sideBar a {
-  margin-top: 40px;
-  margin-left: 40px;
-  display: block;
-  color: #000;
+.sideBar {
+  margin-top: 70px;
 }
 
 .mobileMenu {
   position: fixed;
-  top: 5;
+  top: 0;
   left: 100%;
-  width: 100%;
+  width: 100% !important;
   height: 100vh;
-  background-color: rgb(147, 192, 135);
+  background-color: rgb(253 253 253);
   backdrop-filter: blur(5px);
   transition: left 0.5s ease;
+  bottom: 0;
+}
+
+.sideBar a {
+  text-decoration: none;
+  color: #ec5242;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 60px;
+}
+
+.sideBar li {
+  list-style: none;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 992px) {
@@ -378,7 +382,29 @@ body {
     z-index: 100;
     opacity: 1;
   }
-   .compaign {
+
+  .abtMenu {
+    display: block;
+    display: flex;
+    font-size: 17px;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: flex-start;
+    gap: 28px;
+    list-style: none;
+    margin-top: -41px;
+    text-decoration: none;
+    background-color: white;
+    padding: 18px 24px 22px 39px;
+  }
+
+  .abtMenu li a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+  }
+
+  .compaign {
     border: #272a31;
   }
 
@@ -493,7 +519,6 @@ body {
     color: #d3d3d3;
   }
 
-
   .topLogo {
     margin-left: 9%;
     width: 76px;
@@ -519,11 +544,4 @@ body {
     width: 80%;
     height: auto;
   }
-
-
-
 }
-
-
-
-
