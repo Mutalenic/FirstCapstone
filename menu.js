@@ -1,16 +1,16 @@
-const menuOverlay = document.querySelector(".mobileMenu");
-const cross = document.getElementById("crossIcon");
-const button = document.getElementById("humbergar");
+const menuOverlay = document.querySelector('.mobileMenu');
+const cross = document.getElementById('crossIcon');
+const button = document.getElementById('humbergar');
 function toggleMenu() {
-  menuOverlay.style.position = "inherit";
+  menuOverlay.style.position = 'inherit';
 
-  cross.style.display = "block";
+  cross.style.display = 'block';
 }
 
 function closeMenu() {
-  menuOverlay.style.position = "fixed";
+  menuOverlay.style.position = 'fixed';
 }
 
-button.addEventListener("click", () => toggleMenu());
+button.addEventListener('click', () => toggleMenu());
 
-cross.addEventListener("click", () => closeMenu());
+cross.addEventListener('click', () => closeMenu());
