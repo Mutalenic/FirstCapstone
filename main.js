@@ -58,13 +58,14 @@ const speakersinfo = [
     cardData.forEach((card) => {
       const cardMaster = `
   <div class="speaker1">
-  <div>
+  <div class="grid-card">
   <img src="${card.Picture}" alt="${card.ImageAlt}"></div>
-  </div>
-  <div>
+  
+  <div class="card-content">
   <h3 class="speakerName">${card.Name}</h3>
   <h4 class="SpeakerTitle"><i>${card.speakerTitle}</i></h4>
   <p class="speakerText">${card.Bio}</p>
+  </div>
   </div>
   </div>
   `;
@@ -73,3 +74,22 @@ const speakersinfo = [
   }
   
   createSpeakerSection(speakersinfo);
+
+  const menuOverlay = document.querySelector('.mobileMenu');
+  const cross = document.getElementById('crossIcon');
+  const button = document.getElementById('humbergar');
+  console.log(cross);
+
+  function toggleMenu() {
+      menuOverlay.style.position = 'inherit';
+      cross.style.display = 'block';
+
+      };
+
+function closeMenu () {
+    menuOverlay.style.position = 'fixed';
+}
+
+button.addEventListener('click', () => toggleMenu())
+
+cross.addEventListener('click', ()=> closeMenu())

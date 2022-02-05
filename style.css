@@ -153,18 +153,23 @@ body {
   color: black;
 }
 
-.SpeakerSection {
-  display: grid;
-  grid-template-rows: 0.5fr 0.5fr;
-  grid-row-gap: 10px;
-  padding: 20px;
-}
-
 .speaker1 {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-auto-rows: auto;
   grid-column-gap: 18px;
+  gap: 12px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-card img {
+  width: 90%;
+  height: auto;
+  margin-bottom: 12px;
 }
 
 .container1 {
@@ -313,25 +318,24 @@ body {
   list-style: none;
 }
 
-.abtMenu {
-  display: none;
-}
-
 .menu-cross {
   color: #ec5242;
+  font-size: 23px;
   position: fixed;
-  top: 10%;
-  right: 10%;
+  top: 2%;
+  left: 10%;
 }
 
-.mobileMenu > .sideBar {
+.sideBar a {
   margin-top: 40px;
   margin-left: 40px;
+  display: block;
+  color: #000;
 }
 
 .mobileMenu {
   position: fixed;
-  top: 0;
+  top: 5;
   left: 100%;
   width: 100%;
   height: 100vh;
@@ -374,29 +378,7 @@ body {
     z-index: 100;
     opacity: 1;
   }
-
-   .abtMenu {
-    display: block;
-    display: flex;
-    font-size: 17px;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-items: flex-start;
-    gap: 28px;
-    list-style: none;
-    margin-top: -41px;
-    text-decoration: none;
-    background-color: white;
-    padding: 18px 24px 22px 39px;
-  }
-
-  .abtMenu li a {
-    text-decoration: none;
-    color: black;
-    padding-right: 20px;
-  }
-
-  .compaign {
+   .compaign {
     border: #272a31;
   }
 
@@ -426,6 +408,7 @@ body {
     color: #ec5242;
     font-size: 3.2em;
     line-height: 77px;
+    margin-top: 10%;
     font-family: 'lato', sans-serif;
   }
 
@@ -492,7 +475,7 @@ body {
     justify-content: center;
     align-items: center;
     grid-template-columns: 40% 40%;
-    column-gap: 10px;
+    column-gap: 15px;
   }
 
   .container4 {
@@ -525,6 +508,16 @@ body {
 
   .menu-cross {
     display: none;
+  }
+
+  .grid-card {
+    display: flex;
+    gap: 20px;
+  }
+
+  .grid-card img {
+    width: 80%;
+    height: auto;
   }
 
 
