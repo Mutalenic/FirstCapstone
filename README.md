@@ -6,6 +6,7 @@ This is my first captsotne project at Microverse. Capstone Projects are done at 
 
 
 ![capstone](https://user-images.githubusercontent.com/19844175/152653426-c38a0003-65cc-45e1-b7f5-f7ca329127e6.png)
+![capstone 2](https://user-images.githubusercontent.com/19844175/152654271-efb31fa2-7c28-4adf-a7a3-e877bdfcc270.png)
 
 ## Built With
 
@@ -14,17 +15,11 @@ This is my first captsotne project at Microverse. Capstone Projects are done at 
 - Javascript
 - ESLint
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
-- 
-- 
-- ![capstone 2](https://user-images.githubusercontent.com/19844175/152654271-efb31fa2-7c28-4adf-a7a3-e877bdfcc270.png)
-
-
 - Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 
-
-## Check out it here : https://mutalenic.github.io/FirstCapstone/ and a video presentation here https://www.loom.com/share/21956dfbd1a54c4394456f83d2a5eb93
+## Check out my project here : https://mutalenic.github.io/FirstCapstone/ and a video presentation here https://www.loom.com/share/21956dfbd1a54c4394456f83d2a5eb93
 
 
 ## Authors
@@ -32,6 +27,9 @@ This is my first captsotne project at Microverse. Capstone Projects are done at 
 - GitHub: [@Mutalenic](https://github.com/Mutalenic)
 - Twitter: [@nicomutale](https://twitter.com/nicomutale)
 - LinkedIn: [LinkedIn: nicholasmutale](https://www.linkedin.com/in/nicholas-mutale-715714124/)
+
+## Acknowledgements
+- This page design was an inspiration from the original design idea by Cindy Shin: (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 Contributions, issues, and feature requests are welcome!
