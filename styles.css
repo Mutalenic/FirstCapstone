@@ -206,6 +206,9 @@ body {
 
 .abtpartnersList {
   justify-content: center;
+  font-family: 'lato',sans-serif;
+  color: #d3d3d3;
+  font-size: 20px;
 }
 
 .abtpartnerText {
@@ -493,9 +496,9 @@ body {
       text-decoration: none;
     } 
 
-    /* .navbarlist > li {
-      padding: 8px 19px 8px 0;
-    } */
+    .closemenu {
+      display: none;
+    }
 
 
 

@@ -113,6 +113,17 @@ body {
   background: #ec5242;
 }
 
+.partnersList {
+  justify-content: center;
+  font-family: 'lato',sans-serif;
+  color: #d3d3d3;
+  font-size: 20px;
+}
+
+.btnEntireProgram {
+  display: none;
+}
+
 .date {
   font-family: 'COCOGOOSE', sans-serif;
   padding: 20px 0;
@@ -254,9 +265,6 @@ body {
   padding-bottom: 10px;
 }
 
-.partnersList {
-  justify-content: center;
-}
 
 .partnerText {
   font-size: 20px;
@@ -302,6 +310,7 @@ body {
     justify-content: flex-end;
     background-color: #272a31;
     color: white;
+    margin-bottom: 35px;
     padding: 5px 20px 5px 0;
   }
 
