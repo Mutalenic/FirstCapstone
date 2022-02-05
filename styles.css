@@ -307,12 +307,6 @@ body {
     padding: 18px 24px 22px 39px;
   }
 
-  .abtMenu li a {
-    text-decoration: none;
-    color: black;
-    padding-right: 20px;
-  }
-
   .navbarlist > li {
     display: inline-flex;
     padding: 8px 19px 8px 0;
@@ -447,8 +441,8 @@ body {
   }
 
   .hircompaign {
-       display: table-cell;
-       text-align: center;
+    display: table-cell;
+    text-align: center;
   }
 
   .abtNavBar1 {
