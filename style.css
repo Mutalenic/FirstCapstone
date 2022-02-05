@@ -176,7 +176,7 @@ body {
   margin: 10px;
   display: flex;
   align-items: center;
-  background-color: rgba(120, 127, 125, 0.3);
+  background-color: #787f7d4d;
 }
 
 .mainProgramheader {
@@ -188,7 +188,7 @@ body {
 .mainProgramtext {
   font-size: 13px;
   font-family: 'lato', sans-serif;
-  color: #d3d3d3;
+  color: #fff;
   padding-right: 4px;
   padding-right: -18px;
   margin-left: 15px;
@@ -472,7 +472,7 @@ body {
     text-align: center;
     grid-template-columns: 100%;
     margin: 3px;
-    background-color: rgba(120, 127, 125, 0.3);
+    background-color: #787f7d4d;
   }
 
   .mainPragramCardsContainer {
@@ -525,6 +525,7 @@ body {
     padding-bottom: 26px;
     padding-top: 6px;
     height: auto;
+    display: block;
   }
 
   .toggleMenu {
