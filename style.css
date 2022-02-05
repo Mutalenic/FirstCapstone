@@ -11,6 +11,10 @@ body {
   display: none;
 }
 
+.topLogo {
+  display: none;
+}
+
 .compaign {
   display: none;
 }
@@ -27,22 +31,24 @@ body {
   display: flex;
 }
 
-
-.fa-bars {
+.closemenu {
+  margin-top: -42px;
+  margin-left: 86%;
   position: fixed;
-  height: 9px;
-  left: 1.5em;
-  top: 21px;
-  border: 27px solid;
-  display: flex;
-  flex-direction: column;
-  width: 35px;
-  justify-content: space-between;
 }
 
-/* .toggleMenu {
-  opacity: 1;
-} */
+.toggleMenu {
+  display: block;
+  font-weight: 900;
+  font-size: 2.6em;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.fas.fa-bars.bar {
+
+  padding-left: 20px;
+}
 
 .homePage {
   display: flex;
@@ -300,8 +306,21 @@ body {
   }
 
   .navbarlist > li {
+    display: inline-flex;
     padding: 8px 19px 8px 0;
+    flex-direction: row;
+    z-index: 1;
   }
+
+  .facebook {
+    display: inline-flex;
+    padding: 8px 19px 8px 0;
+    flex-direction: row;
+    z-index: 100;
+    opacity: 1;
+  }
+
+
 
   /* .menucontainer1 {
     list-style: none;

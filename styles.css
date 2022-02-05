@@ -27,6 +27,13 @@ body {
   display: none;
 }
 
+.abtMenu li a {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+  list-style: none;
+}
+
 /* .abtNavBar ul {
   margin: 0;
   padding: 0;
@@ -34,17 +41,20 @@ body {
 } */
 
 .closemenu {
-  margin-top: -14%;
+  margin-top: -42px;
   margin-left: 86%;
   position: fixed;
 }
 
-.fas {
+.toggleMenu {
+  display: block;
   font-weight: 900;
   font-size: 2.6em;
   margin-left: 10%;
   margin-top: 5%;
 }
+
+
 
 .about {
   display: flex;
@@ -441,18 +451,18 @@ body {
     padding: -1px 0;
   }
 
-   .abtMenu > li {
+   .abtMenu {
     display: block;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     justify-items: flex-start;
-    gap: 71px;
+    gap: 58px;
     list-style: none;
-    margin-top: -65px;
+    margin-top: 1px;
     text-decoration: none;
     background-color: white;
-    padding: 9px 164px 8px 39px;
+    padding: 20px 164px 23px 39px;
   } 
 
   .abtnavbar {
@@ -483,9 +493,9 @@ body {
       text-decoration: none;
     } 
 
-    .navbarlist > li {
+    /* .navbarlist > li {
       padding: 8px 19px 8px 0;
-    }
+    } */
 
 
 
